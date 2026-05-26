@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<script src="https://www.geogebra.org/apps/deployggb.js"></script>
+</head>
+
+<body>
+
+<div id="ggb-element"></div>
+
+<script>
+
+var params = {
+  appName: "geometry",
+  width: 900,
+  height: 600,
+  showToolBar: false,
+  showMenuBar: false,
+
+  appletOnLoad: function(api) {
+
+    
+
+  }
+};
+
+var applet = new GGBApplet(params, true);
+
+window.addEventListener("load", function () {
+    applet.inject('ggb-element');
+});
+
+</script>
+
+</body>
+</html>
